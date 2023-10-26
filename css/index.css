@@ -179,7 +179,7 @@ th, td {
   padding: 4px 4px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .section_1 {
     height: 100vh;
   }

@@ -1,6 +1,6 @@
 @use '../utils/' as u;
 
-  @include u.breakpoints(tablet){
+  @include u.breakpoints(mobile){
     .section_1{
       height: 100vh;
       .introduction{
