@@ -184,6 +184,7 @@ th, td {
     height: 500px;
   }
   .section_1 .introduction {
+    border: 1px solid red;
     margin-top: 30%;
   }
 }
