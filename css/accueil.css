@@ -1,0 +1,13 @@
+@media screen and (max-width: 550px) {
+  .section_1 .introduction {
+    padding: 10%;
+  }
+}
+@media screen and (max-width: 374px) {
+  .section_1 .introduction div {
+    display: grid;
+  }
+  .section_1 .introduction div a {
+    margin-bottom: 8px;
+  }
+}/*# sourceMappingURL=accueil.css.map */

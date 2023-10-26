@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  .sub_menu .disconnect i {
+    display: inline;
+  }
+  .sub_menu .disconnect .btn_1 {
+    display: none;
+  }
+  section {
+    grid-template-columns: 1fr;
+  }
+  section .right-bloc {
+    width: 100%;
+  }
+  section .left-bloc {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  section .right-bloc .table_scrolling_area {
+    width: 100%;
+    height: 62vh;
+  }
+  section .right-bloc .table_scrolling_area table {
+    width: 160%;
+  }
+}
+@media screen and (max-width: 415px) {
+  section .right-bloc .blocs {
+    display: grid;
+    justify-content: initial;
+  }
+}
+@media screen and (max-width: 384px) {
+  section .right-bloc #table .table_scrolling_area {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 355px) {
+  section .right-bloc #table .table_scrolling_area {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 340px) {
+  section .right-bloc #table .table_scrolling_area {
+    width: 280px;
+  }
+}/*# sourceMappingURL=Dashboard-Centrale-Accueil.css.map */

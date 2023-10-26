@@ -1,0 +1,194 @@
+:root {
+  --teal_color: #156064;
+  --black: #0a0a0a;
+  --white: #fff;
+  --blue_one:#1f6283;
+  --gray: #cecece8c;
+  --blending_blue: #2d97fa;
+  --yellow: #f8e16c;
+  --green:#00c49a;
+  --orange: #Fb8f67;
+  --pink:#ffc2b4;
+  --red:#FF0000;
+  --red-opaque:#fd65652a;
+}
+
+body {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sen", sans-serif;
+}
+
+.section_1 {
+  background-image: url("../../Images/cars.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section_1 header {
+  background-color: var(--yellow);
+  padding: 23px;
+  width: 100%;
+}
+.section_1 header .sub_menu {
+  background-color: var(--teal_color);
+  padding: 15px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: -50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.section_1 header .sub_menu div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  -webkit-column-gap: 15px;
+}
+.section_1 header .sub_menu div p img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+}
+.section_1 header .sub_menu div h3 {
+  color: var(--yellow);
+}
+.section_1 .introduction {
+  text-align: center;
+  padding: 5%;
+}
+.section_1 .introduction .connexion_link, .section_1 .introduction div .know_more {
+  border: 1px solid var(--yellow);
+  background-color: var(--teal_color);
+  color: var(--yellow);
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.section_1 .introduction div .connexion_link:hover, .section_1 .introduction div .know_more:hover {
+  background-color: var(--yellow);
+  color: var(--teal_color);
+}
+.section_1 .introduction div .know_more {
+  background-color: initial;
+}
+.section_1 .introduction div .know_more:hover {
+  background-color: var(--yellow);
+  color: var(--teal_color);
+}
+.section_1 .introduction h3 {
+  color: var(--white);
+  margin-bottom: 20px;
+}
+.section_1 .introduction p {
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.section_2 {
+  padding: 4%;
+  display: grid;
+}
+.section_2 h3 {
+  margin-bottom: 10px;
+}
+.section_2 p {
+  margin-bottom: 10px;
+}
+.section_2 p a {
+  color: var(--blending_blue);
+}
+
+.section_3 {
+  padding-top: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: #f8f8f8;
+}
+.section_3 .title {
+  margin-bottom: 10px;
+  color: var(--green);
+}
+.section_3 .why {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section_3 .why h4 {
+  margin-bottom: 20px;
+}
+.section_3 .why p {
+  background-color: var(--green);
+  height: 4px;
+  width: 50%;
+  border-radius: 8px;
+}
+.section_3 .reasons div {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.section_3 .reasons div div {
+  color: rgba(255, 255, 255, 0.014);
+  align-items: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: var(--gray);
+}
+
+footer {
+  width: 100%;
+  background-color: var(--teal_color);
+  color: var(--white);
+  text-align: center;
+  padding: 10px;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: var(--yellow);
+}
+
+span {
+  color: var(--white);
+}
+
+h1 {
+  color: var(--white);
+}
+
+th, td {
+  padding: 4px 4px;
+}
+
+@media screen and (max-width: 550px) {
+  .section_1 .introduction {
+    padding: 10%;
+  }
+}
+@media screen and (max-width: 374px) {
+  .section_1 .introduction div {
+    display: grid;
+  }
+  .section_1 .introduction div a {
+    margin-bottom: 8px;
+  }
+}/*# sourceMappingURL=index.css.map */
