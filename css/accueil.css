@@ -1,3 +1,11 @@
+@media (max-width: 768px) {
+  .section_1 {
+    height: 100vh;
+  }
+  .section_1 .introduction {
+    margin-top: 30%;
+  }
+}
 @media screen and (max-width: 550px) {
   .section_1 .introduction {
     padding: 10%;

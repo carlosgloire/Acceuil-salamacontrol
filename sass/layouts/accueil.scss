@@ -1,22 +1,29 @@
 @use '../utils/' as u;
 
-
-    @media screen and (max-width:550px){
-      .section_1{
-        .introduction{
-          padding: 10%;
-        }
+  @include u.breakpoints(tablet){
+    .section_1{
+      height: 100vh;
+      .introduction{
+        margin-top: 30%;
       }
     }
-    @media screen and (max-width:374px){
-      .section_1{
-        .introduction{
-          div{
-            display: grid;
-            a{
-              margin-bottom: 8px;
-            }
+  }
+  @media screen and (max-width:550px){
+    .section_1{
+      .introduction{
+        padding: 10%;
+      }
+    }
+  }
+  @media screen and (max-width:374px){
+    .section_1{
+      .introduction{
+        div{
+          display: grid;
+          a{
+            margin-bottom: 8px;
           }
         }
       }
     }
+  }
